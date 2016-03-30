@@ -1,0 +1,20 @@
+pwd
+ls -a
+
+git config --global user.name "iframe"
+git config --global user.email "778087295@qq.com"
+
+git init把当前目录当成主仓库
+
+git status
+git add <fileName>
+git commit -m "<注释>"
+
+git log	过去的版本
+git reflog版本修改历史记录
+
+git reset --hard <commit-ID>
+git reset --hard head^上一个版本（相对版本）
+git reset --hard head^^上上一个版本（相对版本）
+
+git checkout --<fileName> 丢弃当前工作区更改，到最新一个版本
